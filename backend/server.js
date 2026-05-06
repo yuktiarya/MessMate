@@ -13,7 +13,7 @@ connectDB();
 // Middleware
 // Allow frontend origin and cookies
 app.use(cors({
-    origin: ['http://127.0.0.1:5500', 'http://localhost:5500'], // Adjust if your Live Server runs on a different port
+    origin: ['http://127.0.0.1:5500', 'http://localhost:5500', 'https://mess-mate-sepia.vercel.app'], // Allowed domains
     credentials: true
 }));
 

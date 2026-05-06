@@ -1,6 +1,6 @@
 // Global Application Logic & API Config
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://messmate-0foc.onrender.com/api';
 
 // Fetch options wrapper for credentials (sessions)
 const fetchOptions = (method = 'GET', body = null) => {
