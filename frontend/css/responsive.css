@@ -1,0 +1,61 @@
+/* Responsive adjustments */
+
+@media (max-width: 992px) {
+    .dashboard-wrapper {
+        position: relative;
+    }
+    
+    .sidebar {
+        position: fixed;
+        left: -260px;
+        top: 0;
+        bottom: 0;
+        box-shadow: var(--shadow-lg);
+    }
+    
+    .sidebar.show {
+        left: 0;
+    }
+    
+    .sidebar-toggler {
+        display: block;
+    }
+    
+    .stat-card {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-navbar {
+        padding: 0 1rem;
+    }
+    
+    .dashboard-content-scroll {
+        padding: 1rem;
+    }
+    
+    .stat-details h3 {
+        font-size: 1.5rem;
+    }
+    
+    .hero-section {
+        text-align: center;
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+    
+    .hero-image {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .food-card img {
+        height: 150px;
+    }
+    
+    .mood-btn {
+        font-size: 2rem;
+    }
+}

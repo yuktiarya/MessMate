@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MessMate | Hostel Mess Feedback Analyzer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="page-fade-in">
+
+    <!-- Landing Page Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <i class="bi bi-egg-fried text-primary-custom"></i>
+                MessMate
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Feedback</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+                    <button class="theme-toggle" title="Toggle Dark Mode">
+                        <i class="bi bi-moon-stars-fill"></i>
+                    </button>
+                    <a href="dashboard.html" class="btn btn-primary shadow-sm">Go to Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section py-5 my-lg-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <span class="badge badge-warning mb-3 px-3 py-2 rounded-pill">🚀 The Ultimate Mess Companion</span>
+                    <h1 class="display-4 fw-bold mb-3">Redefining Your Hostel <span class="text-primary-custom">Food
+                            Experience</span></h1>
+                    <p class="lead text-muted mb-4">View today's menu, vote for your favorite meals, submit anonymous
+                        feedback, and check live analytics. It's time to make your voice heard!</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="dashboard.html" class="btn btn-primary btn-lg">Explore Dashboard <i
+                                class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="#features" class="btn btn-outline-primary btn-lg">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <!-- Using unDraw illustration placeholder -->
+                    <img src="https://illustrations.popsy.co/amber/eating-together.svg" alt="Students eating"
+                        class="img-fluid hero-image" style="max-height: 450px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-card">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Everything You Need</h2>
+                <p class="text-muted">A complete suite for managing and improving hostel food quality.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 text-center card-hover-effect shadow-sm">
+                        <div class="icon-box mx-auto mb-3"
+                            style="width: 60px; height: 60px; background: rgba(255, 107, 107, 0.1); color: var(--primary-color); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.8rem;">
+                            <i class="bi bi-calendar2-week"></i>
+                        </div>
+                        <h4 class="mb-3">Live Menu</h4>
+                        <p class="text-muted">Check out breakfast, lunch, and dinner menus instantly. No more walking to
+                            the notice board.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 text-center card-hover-effect shadow-sm">
+                        <div class="icon-box mx-auto mb-3"
+                            style="width: 60px; height: 60px; background: rgba(29, 209, 161, 0.1); color: var(--success); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.8rem;">
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <h4 class="mb-3">Quick Ratings</h4>
+                        <p class="text-muted">Rate your meals based on taste and hygiene using our intuitive emoji and
+                            star rating system.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 text-center card-hover-effect shadow-sm">
+                        <div class="icon-box mx-auto mb-3"
+                            style="width: 60px; height: 60px; background: rgba(254, 202, 87, 0.1); color: var(--warning); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.8rem;">
+                            <i class="bi bi-bar-chart"></i>
+                        </div>
+                        <h4 class="mb-3">Food Polls</h4>
+                        <p class="text-muted">Have a say in the Sunday special! Vote on upcoming menu items and watch
+                            live results.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center mt-auto" style="border-top: 1px solid var(--border-color);">
+        <div class="container">
+            <p class="mb-0 text-muted">&copy; 2026 MessMate. Designed by Yukti with <i
+                    class="bi bi-heart-fill text-danger"></i> for hostelers.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- App JS -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
